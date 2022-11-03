@@ -18,12 +18,12 @@ void set_senha_vazada(std::string vazou){
     //parte dos numeros
     numordem = strpbrk(vazou, keys);
     while(numordem != NULL){
-        _senha += *numordem;
+        _numeros += *numordem;
         numordem = strpbrk(numordem+1, keys);
     }
 
     //assosiando os numeros dados a suas respectivas letras
-    
+
 }
 
 
